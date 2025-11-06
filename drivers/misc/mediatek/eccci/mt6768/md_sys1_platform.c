@@ -386,7 +386,7 @@ void md_cd_lock_cldma_clock_src(int locked)
 
 void md_cd_lock_modem_clock_src(int locked)
 {
-	spm_ap_mdsrc_req(locked);
+	// spm_ap_mdsrc_req(locked);
 }
 
 void md_cd_dump_md_bootup_status(struct ccci_modem *md)
